@@ -25,6 +25,7 @@ class Dashboard extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Material(
+              color: Theme.of(context).primaryColor,
               child: InkWell(
                 onTap: () {
                   Navigator.of(context).push(
@@ -37,7 +38,6 @@ class Dashboard extends StatelessWidget {
                   padding: EdgeInsets.all(8.0),
                   height: 100,
                   width: 150,
-                  color: Theme.of(context).primaryColor,
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.start,
