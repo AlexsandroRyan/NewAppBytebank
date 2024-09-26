@@ -1,5 +1,7 @@
 # NewAppBytebank
 
+Executing the creation of a new bank transfer app with new functions.
+
 ## Tools and languages used for this project
 
 <div style="display: flex">
